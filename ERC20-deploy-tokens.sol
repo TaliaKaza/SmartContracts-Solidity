@@ -7,7 +7,7 @@ import "@openzeppelin/contracts@4.8.1/access/Ownable.sol";
 import "@openzeppelin/contracts@4.8.1/token/ERC20/extensions/draft-ERC20Permit.sol";
 import "@openzeppelin/contracts@4.8.1/token/ERC20/extensions/ERC20Votes.sol";
 
-contract Masterweb3 is ERC20, ERC20Burnable, Ownable, ERC20Permit, ERC20Votes {
+contract TaliaK is ERC20, ERC20Burnable, Ownable, ERC20Permit, ERC20Votes {
     constructor() ERC20("Masterweb3", "MSTR") ERC20Permit("Masterweb3") {
         _mint(msg.sender, 100000000 * 10 ** decimals());
     }
