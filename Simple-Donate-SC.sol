@@ -3,7 +3,7 @@
 pragma solidity ^0.8.17;
 
 
-contract ImasterDonate {
+contract TaliaKDonate {
 
     address public owner;
     mapping (address => uint) public payments;
